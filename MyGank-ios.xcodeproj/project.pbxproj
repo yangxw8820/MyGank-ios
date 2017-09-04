@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC02C5F061903E678852691 /* libPods-MyGank-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4A0A3133B1C78EC95D39D9 /* libPods-MyGank-ios.a */; };
 		74A4F1EC1F5D347500CD8041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A4F1EB1F5D347500CD8041 /* main.m */; };
 		74A4F1EF1F5D347500CD8041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A4F1EE1F5D347500CD8041 /* AppDelegate.m */; };
 		74A4F1F21F5D347500CD8041 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A4F1F11F5D347500CD8041 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		74A4F1FA1F5D347500CD8041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A4F1F81F5D347500CD8041 /* LaunchScreen.storyboard */; };
 		74A4F2051F5D347500CD8041 /* MyGank_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A4F2041F5D347500CD8041 /* MyGank_iosTests.m */; };
 		74A4F2101F5D347500CD8041 /* MyGank_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A4F20F1F5D347500CD8041 /* MyGank_iosUITests.m */; };
+		7CDCF711EBAAF8A6408F3A74 /* libPods-MyGank-iosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ECAA467F0EC5536D095DDD /* libPods-MyGank-iosUITests.a */; };
+		BD911F2C9B762897C4115A7D /* libPods-MyGank-iosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D145D47FE7167D47A01339F5 /* libPods-MyGank-iosTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14ECAA467F0EC5536D095DDD /* libPods-MyGank-iosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGank-iosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1889401DFBB4A344039151D4 /* Pods-MyGank-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGank-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGank-iosUITests/Pods-MyGank-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49D9316A2DA282B01744D61E /* Pods-MyGank-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGank-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGank-iosTests/Pods-MyGank-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C4A0A3133B1C78EC95D39D9 /* libPods-MyGank-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGank-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A4F1E71F5D347500CD8041 /* MyGank-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyGank-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A4F1EB1F5D347500CD8041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74A4F1ED1F5D347500CD8041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		74A4F20B1F5D347500CD8041 /* MyGank-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyGank-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A4F20F1F5D347500CD8041 /* MyGank_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGank_iosUITests.m; sourceTree = "<group>"; };
 		74A4F2111F5D347500CD8041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8062720D592B63F4964C75AA /* Pods-MyGank-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGank-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGank-ios/Pods-MyGank-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A268C5D72E6B42232C2DAA26 /* Pods-MyGank-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGank-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGank-iosUITests/Pods-MyGank-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D145D47FE7167D47A01339F5 /* libPods-MyGank-iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGank-iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC88EDD43E8F3C965FA46F62 /* Pods-MyGank-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGank-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGank-ios/Pods-MyGank-ios.release.xcconfig"; sourceTree = "<group>"; };
+		FE4881C7E95AD83F929ECBED /* Pods-MyGank-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGank-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGank-iosTests/Pods-MyGank-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC02C5F061903E678852691 /* libPods-MyGank-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD911F2C9B762897C4115A7D /* libPods-MyGank-iosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDCF711EBAAF8A6408F3A74 /* libPods-MyGank-iosUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0588C8AF9243D619456751A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8062720D592B63F4964C75AA /* Pods-MyGank-ios.debug.xcconfig */,
+				FC88EDD43E8F3C965FA46F62 /* Pods-MyGank-ios.release.xcconfig */,
+				FE4881C7E95AD83F929ECBED /* Pods-MyGank-iosTests.debug.xcconfig */,
+				49D9316A2DA282B01744D61E /* Pods-MyGank-iosTests.release.xcconfig */,
+				1889401DFBB4A344039151D4 /* Pods-MyGank-iosUITests.debug.xcconfig */,
+				A268C5D72E6B42232C2DAA26 /* Pods-MyGank-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17B5CEAFFFC8D1196CB7E7A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A0A3133B1C78EC95D39D9 /* libPods-MyGank-ios.a */,
+				D145D47FE7167D47A01339F5 /* libPods-MyGank-iosTests.a */,
+				14ECAA467F0EC5536D095DDD /* libPods-MyGank-iosUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74A4F1DE1F5D347500CD8041 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				74A4F2031F5D347500CD8041 /* MyGank-iosTests */,
 				74A4F20E1F5D347500CD8041 /* MyGank-iosUITests */,
 				74A4F1E81F5D347500CD8041 /* Products */,
+				0588C8AF9243D619456751A6 /* Pods */,
+				17B5CEAFFFC8D1196CB7E7A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74A4F2141F5D347500CD8041 /* Build configuration list for PBXNativeTarget "MyGank-ios" */;
 			buildPhases = (
+				97777F388D9D230DEF697130 /* [CP] Check Pods Manifest.lock */,
 				74A4F1E31F5D347500CD8041 /* Sources */,
 				74A4F1E41F5D347500CD8041 /* Frameworks */,
 				74A4F1E51F5D347500CD8041 /* Resources */,
+				B609B02F8BC08A01FEAA38DE /* [CP] Embed Pods Frameworks */,
+				0525F69B01610FB936BF7100 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74A4F2171F5D347500CD8041 /* Build configuration list for PBXNativeTarget "MyGank-iosTests" */;
 			buildPhases = (
+				F87A2136A00DDC9603D751CB /* [CP] Check Pods Manifest.lock */,
 				74A4F1FC1F5D347500CD8041 /* Sources */,
 				74A4F1FD1F5D347500CD8041 /* Frameworks */,
 				74A4F1FE1F5D347500CD8041 /* Resources */,
+				BEDAEA4DFE577CE60A03AA01 /* [CP] Embed Pods Frameworks */,
+				ADA66D0AFAA6C56AC3F049E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74A4F21A1F5D347500CD8041 /* Build configuration list for PBXNativeTarget "MyGank-iosUITests" */;
 			buildPhases = (
+				0686D08D91A1C044761AB6B4 /* [CP] Check Pods Manifest.lock */,
 				74A4F2071F5D347500CD8041 /* Sources */,
 				74A4F2081F5D347500CD8041 /* Frameworks */,
 				74A4F2091F5D347500CD8041 /* Resources */,
+				9CB7FCA6EE18C694E400680B /* [CP] Embed Pods Frameworks */,
+				C51C7EB1E0DF63B5BED74BDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0525F69B01610FB936BF7100 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGank-ios/Pods-MyGank-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0686D08D91A1C044761AB6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97777F388D9D230DEF697130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB7FCA6EE18C694E400680B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGank-iosUITests/Pods-MyGank-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA66D0AFAA6C56AC3F049E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGank-iosTests/Pods-MyGank-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B609B02F8BC08A01FEAA38DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGank-ios/Pods-MyGank-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDAEA4DFE577CE60A03AA01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGank-iosTests/Pods-MyGank-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51C7EB1E0DF63B5BED74BDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGank-iosUITests/Pods-MyGank-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87A2136A00DDC9603D751CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74A4F1E31F5D347500CD8041 /* Sources */ = {
@@ -427,10 +614,12 @@
 		};
 		74A4F2151F5D347500CD8041 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8062720D592B63F4964C75AA /* Pods-MyGank-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R5ZXF9NJK7;
 				INFOPLIST_FILE = "MyGank-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yangxw.MyGank-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,10 +628,12 @@
 		};
 		74A4F2161F5D347500CD8041 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC88EDD43E8F3C965FA46F62 /* Pods-MyGank-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R5ZXF9NJK7;
 				INFOPLIST_FILE = "MyGank-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yangxw.MyGank-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +642,7 @@
 		};
 		74A4F2181F5D347500CD8041 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4881C7E95AD83F929ECBED /* Pods-MyGank-iosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = R5ZXF9NJK7;
@@ -464,6 +656,7 @@
 		};
 		74A4F2191F5D347500CD8041 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D9316A2DA282B01744D61E /* Pods-MyGank-iosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = R5ZXF9NJK7;
@@ -477,6 +670,7 @@
 		};
 		74A4F21B1F5D347500CD8041 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1889401DFBB4A344039151D4 /* Pods-MyGank-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = R5ZXF9NJK7;
 				INFOPLIST_FILE = "MyGank-iosUITests/Info.plist";
@@ -489,6 +683,7 @@
 		};
 		74A4F21C1F5D347500CD8041 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A268C5D72E6B42232C2DAA26 /* Pods-MyGank-iosUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = R5ZXF9NJK7;
 				INFOPLIST_FILE = "MyGank-iosUITests/Info.plist";
@@ -518,6 +713,7 @@
 				74A4F2161F5D347500CD8041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74A4F2171F5D347500CD8041 /* Build configuration list for PBXNativeTarget "MyGank-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +722,7 @@
 				74A4F2191F5D347500CD8041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74A4F21A1F5D347500CD8041 /* Build configuration list for PBXNativeTarget "MyGank-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +731,7 @@
 				74A4F21C1F5D347500CD8041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
